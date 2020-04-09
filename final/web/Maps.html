@@ -1,0 +1,100 @@
+<head>
+<title>Dengue Prediction System </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="../static/css/main.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<style>
+.mySlides {display:none;}
+
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+  <div class="top-bar fix">
+			<div class="top-bar-links">
+            <ul>
+            	<li><a href="Register.html">Register</a></li>
+                <li><a href="Login.html">Login</a></li>
+                 <li><a href="Help.html">Help</a></li>
+            </ul>
+
+			<div class="socialmedia">
+        <ul>
+        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="https://twitter.com" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+        </ul>
+              </div>
+
+               </div>
+
+		   </div>
+         <header class="fix">
+       <div class="image">
+
+      <img src="../static/images/dengue_banner.jpg" />
+       </div>
+
+
+
+        </header>
+
+          <nav>
+        <ul>
+        <li><a href="home.html">Home</a></li>
+           <li><a href="Disease%20Description.html">Disease Description</a></li>
+           <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Maps.html">Maps</a></li>
+         <li><a href="Prediction.html">Prediction </a></li>
+        <li><a href="Feedback.html">Feedback </a></li>
+        <li><a href="About.html ">About us</a></li>
+        </ul>
+         </nav>
+
+<div class="w3-content w3-section" style="max-width:1200px" style="max-height:1200px">
+  <center><img class="mySlides" src="../static/images/2010.jpg" style="width:1200px" style="max-height:1200px"></center>
+  <center><img class="mySlides" src="../static/images/2011.jpg" style="width:1200px" style="max-height:1200px"></center>
+  <center><img class="mySlides" src="../static/images/2012.jpg" style="width:1200px" style="max-height:1200px"></center>
+  <center><img class="mySlides" src="../static/images/2013.jpg" style="width:1200px" style="max-height:1200px"></center>
+  <center><img class="mySlides" src="../static/images/2014.jpg" style="width:1200px" style="max-height:1200px"></center>
+  <center><img class="mySlides" src="../static/images/2015.jpg" style="width:1200px" style="max-height:1200px"></center>
+  <center><img class="mySlides" src="../static/images/2016.jpg" style="width:1200px" style="max-height:1200px"></center>
+  <center><img class="mySlides" src="../static/images/2017.jpg" style="width:1200px" style="max-height:1200px"></center>
+  <center><img class="mySlides" src="../static/images/2018.jpg" style="width:1200px" style="max-height:1200px"></center>
+  <center><img class="mySlides" src="../static/images/2019.jpg" style="width:1200px" style="max-height:1200px"></center>
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+<footer class="fix2">
+ <div class="copyrights " >
+        <div class="left">
+        @ 2020 Copyright Dengue Prediction System.All Rights Reserved.
+        </div>
+        <div class="right ">
+        Website by:Adhee
+        </div>
+        </div>
+        </footer>
+        </div>
+</body>
+</html>
